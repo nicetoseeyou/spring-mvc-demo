@@ -1,0 +1,8 @@
+Get h2 database through Maven
+mvn dependency:get -Dartifact=com.h2database:h2:1.4.197
+
+go to h2 jar path
+cd E:\repository\com\h2database\h2\1.4.197
+java -cp "h2-1.4.197.jar;%H2DRIVERS%;%CLASSPATH%" org.h2.tools.Server -tcpAllowOthers -webAllowOthers -webPort 9090 -baseDir E:\database\h2_data\ 
+
+run database init commands

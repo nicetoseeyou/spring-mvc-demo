@@ -1,0 +1,2 @@
+USE DEMO;
+INSERT INTO PERSON VALUES(null,'Kevin','Yang');
